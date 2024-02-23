@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <!-- aside menu section -->
+    <aside>
+      <img src="./images/no-text-logo.png" id="logo" class="logo" />
+      <img src="./images/text-logo.png" id="text-logo" class="logo" />
+      <nav>
+        <a href="/">
+          <i class="bi bi-house-fill"></i>
+          <span> Anasayfa </span>
+        </a>
+        <a href="/">
+          <i class="bi bi-search"></i>
+          <span> Arama </span>
+        </a>
+        <a href="/">
+          <i class="bi bi-bookmark-fill"></i>
+          <span> Kütüphane </span>
+        </a>
+        <a href="/">
+          <i class="bi bi-music-note-list"></i>
+          <span> Çalma listesi </span>
+        </a>
+        <a href="/">
+          <i class="bi bi-heart-fill"></i>
+          <span> Beğenilen şarkılar </span>
+        </a>
+      </nav>
+    </aside>
+
+    <!-- main  section -->
+    <main>
+      <!-- top menu section -->
+      <header>
+        <form id="search-form">
+          <input type="search" placeholder="şarkı adını giriniz" />
+          <button><i class="bi bi-search"></i></button>
+        </form>
+
+        <ul>
+          <li>Premium</li>
+          <li>Support</li>
+          <li>Downloads</li>
+          <li>Sign Up</li>
+        </ul>
+      </header>
+
+      <!-- musics section -->
+      <div class="songs">
+        <h4 id="title">most popular</h4>
+        <div id="list">
+          <!-- card -->
+          <!-- <div class="card">
+            <figure>
+              <img
+                src="https://cdns-images.dzcdn.net/images/cover/a14a961ae96fa5d02f4f94b471ff413c/264x264.jpg"
+                alt=""
+              />
+              <div id="play"><i id="play-btn" class="bi bi-play-fill"></i></div>
+            </figure>
+
+            <h4>Evgeny Grinko</h4>
+            <p>Valse</p>
+          </div> -->
+        </div>
+      </div>
+    </main>
+    <!-- play section -->
+    <div class="play-area" id="play-area">
+      <!-- <div>
+        <img
+          src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/de/82/b9/de82b98d-56a1-e27b-10ea-46964f4585e4/196871714549.jpg/400x400cc.jpg"
+          alt=""
+          srcset=""
+          class="animate"
+        />
+      </div>
+      <div>
+        <h4>21 Savage</h4>
+      </div>
+      <audio id="audio-player" controls src=""></audio> -->
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
